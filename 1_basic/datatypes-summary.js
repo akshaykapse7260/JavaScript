@@ -10,13 +10,25 @@ const EmailId = Symbol('123')
 
 //Array, Objects, Functions
 const heros = ["IronMan", "SpiderMan", "Hulk", "Thor"];
-console.log(typeof heros);
+//console.log(typeof heros);
 let obj1 = {
     name: "Akshay",
     age: 27,
 }
-console.log(typeof obj1);
+//console.log(typeof obj1);
 const myFunction = function(){
     console.log("hello world");
 }
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++
+
+let user1 = {
+    email: "user1@gmail.com",
+    upi: "user1@ybl"
+}
+let user2 = user1;
+user2.email = "user2@gmail.com"
+
+console.log(user1.email)
+console.log(user2.email)
