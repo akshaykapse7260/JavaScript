@@ -22,6 +22,7 @@ const myFunction = function(){
 //console.log(typeof myFunction);
 
 //+++++++++++++++++++++++++++++
+// Stack(Primitive) Head(Non-Primitive)
 
 let user1 = {
     email: "user1@gmail.com",
