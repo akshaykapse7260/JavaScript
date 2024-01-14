@@ -24,4 +24,4 @@ console.log(url.includes('kapse'))
 console.log(url.includes('20%'))
 
 const newStringTwo = new String('Akshay-Tanaji-Kapse');
-console.log((newStringTwo.split('-'))[0])
+console.log((newStringTwo.split('-'))[1])
